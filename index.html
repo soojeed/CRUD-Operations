@@ -7,27 +7,27 @@
     <title>Document</title>
 </head>
 <body style="background-color: #030435; color:white; ">
-    <div class="container mt-5">
+    <div class="container mt-5 mb-30">
    <div class="text-center">
-    <H1 class="display-5 mt-5"><strong>CRUD Application</strong></H1>
+    <h1 class="display-5 mt-5"><strong>CRUD Application</strong></h1>
    </div>
-   <div class="main">
-    <form action="" id="student-form" class="row justify-content-center mt-4" >
+   <div class="main row justify-content-center mt-5">
+    <form action="" id="student-form" class="row justify-content-center" >
         <div class="col-10 mb-3">
             <label for="Firstname" style="font-size: 1.5rem; ">First Name</label>
-            <input style="width: 50%;" type="text" class="form-control" id="name" placeholder="Enter Name" required>
+            <input style="width: 50%;" type="text" class="form-control" id="name" placeholder="Enter Name">
         </div>
         <div class="col-10 mb-3">
             <label for="email" style="font-size: 1.5rem; ">Email</label>
-            <input style="width: 50%;" type="email" class="form-control " id="email" placeholder="Enter Email" required>
+            <input style="width: 50%;" type="email" class="form-control " id="email" placeholder="Enter Email">
         </div>
         <div class="col-10 mb-3">
             <label for="phone" style="font-size: 1.5rem; ">Phone Number</label>
-            <input style="width: 50%;" type="text" class="form-control" id="phone" placeholder="Enter Phone Number" required>
+            <input style="width: 50%;" type="text" class="form-control" id="phone" placeholder="Enter Phone Number">
         </div>
         <div class="col-10 mt-5 ">
             
-            <input style="width: 50%;" class="btn btn-success add-btn" type="submit" value="Submit" id="submit"  required>
+            <input style="width: 50%;" class="btn btn-success add-btn" type="submit" value="submit" id="submit">
         </div>
 
     </form>
@@ -49,8 +49,8 @@
             <td>Ayto@gmail.com</td>
             <td>1234567890</td>
             <td>
-              <button class="btn btn-primary edit-btn">Edit</button>
-              <button class="btn btn-danger delete-btn">Delete</button>
+              <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+              <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
             </td>
           </tr>
         </tbody>
