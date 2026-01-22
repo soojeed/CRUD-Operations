@@ -11,3 +11,10 @@ function showAlert(message, className){
 
    setTimeout(() => document.querySelector(".alert").remove(), 3000)
 }
+
+
+const clearFields = () => {
+   document.querySelector("#name").value = "";
+   document.querySelector("#email").value = "";
+   document.querySelector("#phone").value = "";
+}
