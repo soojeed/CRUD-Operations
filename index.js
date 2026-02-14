@@ -1,20 +1,27 @@
-var selectedRow = null;
+// var selectedRow = null;
 
-function showAlert(message, className){
-   const div = document.createElement("div");
-   div.className = `alert${className}`;
+// function showAlert(message, className){
+//    const div = document.createElement("div");
+//    div.className = `alert${className}`;
 
-   div.appendChild(document.createTextNode(message));
-   const container = document.querySelector(".container");
-   const main = document.querySelector(".main");
-   container.insertBefore(div, main);
+//    div.appendChild(document.createTextNode(message));
+//    const container = document.querySelector(".container");
+//    const main = document.querySelector(".main");
+//    container.insertBefore(div, main);
 
-   setTimeout(() => document.querySelector(".alert").remove(), 3000)
+//    setTimeout(() => document.querySelector(".alert").remove(), 3000)
+// }
+
+
+// const clearFields = () => {
+//    document.querySelector("#name").value = "";
+//    document.querySelector("#email").value = "";
+//    document.querySelector("#phone").value = "";
+// }
+
+
+function hello(s){
+   return `hello ${s}`;
 }
-
-
-const clearFields = () => {
-   document.querySelector("#name").value = "";
-   document.querySelector("#email").value = "";
-   document.querySelector("#phone").value = "";
-}
+ hello('world');
+hello('world');
